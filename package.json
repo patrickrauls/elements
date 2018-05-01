@@ -1,5 +1,5 @@
 {
-  "name": "elements",
+  "name": "ellies",
   "version": "0.0.1",
   "description": "a semantic component library in React",
   "main": "dist/index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrickrauls/elements.git"
+    "url": "git+https://github.com/patrickrauls/ellies.git"
   },
   "author": "Patrick Rauls",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patrickrauls/elements/issues"
+    "url": "https://github.com/patrickrauls/ellies/issues"
   },
-  "homepage": "https://github.com/patrickrauls/elements#readme",
+  "homepage": "https://github.com/patrickrauls/ellies#readme",
   "jest": {
     "setupFiles": [
       "<rootDir>/jest.setup.js"
