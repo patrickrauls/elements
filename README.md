@@ -1,7 +1,7 @@
 # ellies
 ## A semantic component library in React
 
-ellies is a component library in React designed to preserve the functionality and usage of HTML ellies. 
+ellies is a component library in React designed to preserve the functionality and usage of HTML elements. 
 
 [![codecov][codecov-badge]][codecov]
 [![build][build-badge]][build]
@@ -13,7 +13,7 @@ ellies is a component library in React designed to preserve the functionality an
 [codecov]: https://codecov.io/gh/patrickrauls/ellies
 [build-badge]: https://travis-ci.org/patrickrauls/ellies.svg
 [build]: https://travis-ci.org/patrickrauls/ellies
-[dependencyci-badge]: https://dependencyci.com/github/patrickrauls/ellies/badge
+[dependencyci-badge]: https://dependencyci.com/github/patrickrauls/ellies/badge?style=flat
 [dependencyci]: https://dependencyci.com/github/patrickrauls/ellies
 [license-badge]: https://img.shields.io/badge/License-MIT-green.svg
 [license]: https://github.com/patrickrauls/ellies/blob/master/other/LICENSE
