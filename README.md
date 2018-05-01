@@ -10,3 +10,4 @@ Elements is a component library in React designed to preserve the functionality 
 
 
 [codecov-badge]: https://codecov.io/gh/patrickrauls/elements/branch/master/graph/badge.svg
+[build-badge]: https://travis-ci.org/patrickrauls/elements.svg
