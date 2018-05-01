@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "node scripts/test.js",
+    "cover": "node scripts/test.js --coverage",
     "build": "babel lib -d dist",
     "watch": "babel lib -w -d dist",
     "lint": "eslint lib/**: exit 0",

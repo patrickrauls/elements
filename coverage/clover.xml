@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1525147086462" clover="3.2.0">
-  <project timestamp="1525147086462" name="All files">
+<coverage generated="1525150738986" clover="3.2.0">
+  <project timestamp="1525150738986" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6" elements="25" coveredelements="25" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1">
       <file name="Form.js" path="/Users/prauls/code/elements/lib/Form/Form.js">
         <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>

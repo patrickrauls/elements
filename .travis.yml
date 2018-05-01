@@ -8,7 +8,7 @@ notifications:
 node_js:
   - '6'
 script:
-  - npm run test
+  - npm run cover
 after_success:
   - codecov
 branches:
