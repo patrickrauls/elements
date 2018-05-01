@@ -15,5 +15,5 @@ Elements is a component library in React designed to preserve the functionality 
 [build]: https://travis-ci.org/patrickrauls/elements
 [dependencyci-badge]: https://dependencyci.com/github/patrickrauls/elements/badge
 [dependencyci]: https://dependencyci.com/github/patrickrauls/elements
-[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-badge]: https://img.shields.io/badge/License-MIT-green.svg
 [license]: https://github.com/patrickrauls/elements/blob/master/other/LICENSE
