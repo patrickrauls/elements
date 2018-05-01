@@ -27,7 +27,8 @@
       "<rootDir>/jest.setup.js"
     ],
     "collectCoverageFrom": [
-      "lib/**/*.{js,jsx,mjs}"
+      "lib/**/*.{js,jsx,mjs}",
+      "!lib/**/story.js"
     ],
     "testMatch": [
       "<rootDir>/lib/**/__tests__/**/*.{js,jsx,mjs}",
