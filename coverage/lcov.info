@@ -1,5 +1,5 @@
 TN:
-SF:/Users/patrickrauls/Projects/ellies/lib/Button/Button.js
+SF:/Users/prauls/code/ellies/lib/Button/Button.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -30,7 +30,7 @@ BRF:12
 BRH:12
 end_of_record
 TN:
-SF:/Users/patrickrauls/Projects/ellies/lib/Button/index.js
+SF:/Users/prauls/code/ellies/lib/Button/index.js
 FNF:0
 FNH:0
 DA:5,1
@@ -41,7 +41,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/patrickrauls/Projects/ellies/lib/Button/styles.js
+SF:/Users/prauls/code/ellies/lib/Button/styles.js
 FNF:0
 FNH:0
 DA:4,1
@@ -51,7 +51,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/patrickrauls/Projects/ellies/lib/Form/Form.js
+SF:/Users/prauls/code/ellies/lib/Form/Form.js
 FN:4,(anonymous_0)
 FN:5,(anonymous_1)
 FN:7,(anonymous_2)
@@ -91,7 +91,17 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:/Users/patrickrauls/Projects/ellies/lib/utils/styling.js
+SF:/Users/prauls/code/ellies/lib/utils/regex.js
+FNF:0
+FNH:0
+DA:1,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+end_of_record
+TN:
+SF:/Users/prauls/code/ellies/lib/utils/styling.js
 FNF:0
 FNH:0
 DA:3,1
