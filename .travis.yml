@@ -6,11 +6,14 @@ cache:
 notifications:
   email: false
 node_js:
-- '6'
+- '8'
+install:
+  - npm install -g babel-cli
+  - npm install
 script:
-- npm run cover
+  - npm run cover
 after_success:
-- codecov
+  - codecov
 branches:
   only:
   - master
