@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node scripts/test.js",
     "cover": "node scripts/test.js --coverage",
+    "cover:watch": "node scripts/test.js --coverage --watch",
     "build": "babel lib -d dist",
     "watch": "babel lib -w -d dist",
     "lint": "eslint lib/**: exit 0",
