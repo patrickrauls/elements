@@ -2,15 +2,22 @@ sudo: true
 language: node_js
 cache:
   directories:
-    - node_modules
+  - node_modules
 notifications:
   email: false
 node_js:
-  - '6'
+- '6'
 script:
-  - npm run cover
+- npm run cover
 after_success:
-  - codecov
+- codecov
 branches:
   only:
-    - master
+  - master
+deploy:
+  provider: npm
+  email: patrauls@gmail.com
+  api_key:
+    secure: J4WtYc83w2OEnvqkMAPiAZF9e8JVaoZrtlrBBz8O3AIjfDGz33M+zr6wlFvwu7K8ZEFbzs+GsxcybqYR+X4bcqLsjqa42T1pioe8vpnOTIonpQooxcWUQe2gSpcvHlo4bI9x6HUHCjlPRhny/MzfRNMUS/vPN9aNZheL9XrlgkY3oEIDH3p9rMUrrzOBPngYEXJqZPoUmNSIT6hbbr43hmQuA0BnbDxpp3JI3wwVGTbLFqgiM8erNFfuBjyn/sIPn8OXTzfuD/6F6LqobXzIfZam4L2aThCGJC1V1GapjDQomXHb6Bdsra9N9CNrWF3QaQHZsPfF3vHdJiZNX4IFwbL5ty3Y+qMAWScQCeJGBKg1A37T+5+s31o/f6gmLniuF3Q+X8yum9kf7rr6UDqIHAiDflbpBEdcPCAjDrqgyao5cxi5/D46TfXDPK8ERAPpJVCJfH4kMOnRxGI1Jn9va732WJoLiAmN4n+vY6igPH1qR5xPy1FCBg88Ek9dOhxk8NJusYZqJn5N8wmNTIDwKHqWfnyNGwr4qj82lvAxE3DG3j/o0NzzCZ/QpI5YRw1H1s343IqJH4qUl+PJTT6ZCsnYSrcGuYKifzjpY+fZcqv+KQ3E1TImIxIb2+bfIalepLJ4XyhGRPw1KU7UE0cXnbzAsHaRdXMQ8l6knha2Ql0=
+  on:
+    repo: patrickrauls/ellies

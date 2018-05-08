@@ -1,11 +1,12 @@
 {
   "name": "ellies",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a semantic component library in React",
   "main": "dist/index.js",
   "scripts": {
     "test": "node scripts/test.js",
     "cover": "node scripts/test.js --coverage",
+    "cover:watch": "node scripts/test.js --coverage --watch",
     "build": "babel lib -d dist",
     "watch": "babel lib -w -d dist",
     "lint": "eslint lib/**: exit 0",
