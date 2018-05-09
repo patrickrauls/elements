@@ -1,6 +1,6 @@
 {
   "name": "ellies",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a semantic component library in React",
   "main": "dist/index.js",
   "scripts": {
