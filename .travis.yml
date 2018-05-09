@@ -8,6 +8,7 @@ notifications:
 node_js:
 - '8'
 script:
+  - yarn
   - yarn cover
 after_success:
   - codecov
