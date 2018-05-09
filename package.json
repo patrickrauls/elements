@@ -11,7 +11,7 @@
     "watch": "babel lib -w -d dist",
     "lint": "eslint lib/**: exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepare": "yarn && yarn build"
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",

@@ -14,7 +14,10 @@ after_success:
 branches:
   only:
   - master
+before_deploy:
+  - yarn
 deploy:
+  skip_cleanup: true
   provider: npm
   email: patrauls@gmail.com
   api_key:
