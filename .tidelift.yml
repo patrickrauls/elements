@@ -1,0 +1,11 @@
+ci:
+  # don't run unlicensed test on any development dependencies
+  type:
+    development:
+      tests:
+        outdated: skip
+    runtime:
+      tests:
+        outdated: skip
+        unlicensed: skip
+        unmaintained: skip
