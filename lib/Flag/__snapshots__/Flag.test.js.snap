@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flag ui tests should add styles to the component 1`] = `
+<Flag
+  className="sc-bdVaJa hrWjhA"
+  type="valid"
+/>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input ui tests should add styles to the Input component 1`] = `
+<Input
+  className="sc-bwzfXH crTysL"
+  defaultValue=""
+  disabled={false}
+  required={false}
+  type="text"
+/>
+`;

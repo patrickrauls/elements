@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`I (icon component) ui tests adds styles to the component 1`] = `
+.c0 {
+  display: inline;
+}
+
+<I
+  className="c0"
+  hidden={false}
+  icon="check"
+/>
+`;
