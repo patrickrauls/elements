@@ -2,7 +2,7 @@
 
 exports[`Flag ui tests should add styles to the component 1`] = `
 <Flag
-  className="sc-bdVaJa hrWjhA"
+  className="sc-bwzfXH dGcYuw"
   type="valid"
 />
 `;
