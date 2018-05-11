@@ -1,12 +1,13 @@
 {
   "name": "ellies",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "a semantic component library in React",
   "main": "dist/index.js",
   "scripts": {
     "test": "node scripts/test.js",
     "cover": "node scripts/test.js --coverage",
     "cover:watch": "node scripts/test.js --coverage --watch",
+    "story": "NODE_PATH=lib start-storybook -p 6006 -c .storybook",
     "build": "./node_modules/.bin/babel lib -d dist",
     "watch": "babel lib -w -d dist",
     "lint": "eslint lib/**: exit 0",
@@ -27,6 +28,9 @@
     "setupFiles": [
       "<rootDir>/jest.setup.js"
     ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
     "collectCoverageFrom": [
       "lib/**/*.{js,jsx,mjs}",
       "!lib/**/story.js"
@@ -37,23 +41,35 @@
     ]
   },
   "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.7",
+    "@fortawesome/fontawesome-free-regular": "^5.0.12",
+    "@fortawesome/fontawesome-free-solid": "^5.0.12",
+    "@fortawesome/react-fontawesome": "^0.0.19",
+    "@storybook/addon-actions": "^3.4.3",
+    "@storybook/addon-knobs": "^3.4.3",
+    "@storybook/addons": "^3.4.3",
+    "@storybook/react": "^3.4.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
     "codecov": "^3.0.2",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
     "eslint": "^4.19.1",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "eslint-watch": "^3.1.4",
     "jest": "^22.4.3",
+    "jest-styled-components": "^5.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "styled-components": "^3.2.6"
-  }
+  },
+  "dependencies": {}
 }

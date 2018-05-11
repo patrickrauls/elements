@@ -1,4 +1,7 @@
 .babelrc
+.eslintrc
 lib
 CODE_OF_CONDUCT.md
 coverage
+.tidelift.yml
+.travis.yml

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input UI tests shallow should add styles to the Input component 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 0.125rem solid #474f4f;
+  color: #474F4F;
+  width: 100%;
+  z-index: 1;
+  margin-top: 2.1875rem;
+}
+
+.c0.ellies-input-focused {
+  border-bottom: 0.125rem solid #021828;
+  color: #021828;
+}
+
+.c0.invalid,
+.c0.required {
+  color: #af1a12;
+  border-bottom: 0.125rem solid #af1a12;
+}
+
+.c0.disabled {
+  opacity: 0.4;
+}
+
+.c0 .ellies-input-requirements {
+  color: #021828;
+  width: 90%;
+  text-align: left;
+  -webkit-animation: fadein 0.3s;
+  animation: fadein 0.3s;
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin: 1rem auto;
+}
+
+.c0 .ellies-input-requirements .ellies-input-requirement {
+  margin: 0.25rem 0;
+}
+
+.c0 .ellies-input-requirements .ellies-input-requirement-status-icon {
+  -webkit-animation: fadein 0.3s;
+  animation: fadein 0.3s;
+  margin-left: 0.5rem;
+}
+
+.c0 .ellies-input-icon {
+  position: absolute;
+  height: 1rem;
+  width: 0.875rem;
+  left: 0;
+  bottom: 0.25rem;
+}
+
+.c0 input {
+  width: 100%;
+  padding: 0 1.125rem 0.25rem 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  color: #474f4f;
+  font-size: 1rem;
+}
+
+.c0 input:focus {
+  outline: none;
+  color: #021828;
+}
+
+.c0 input:invalid {
+  box-shadow: none;
+}
+
+.c0 input:invalid:not(:focus) ~ .flag {
+  display: block;
+  -webkit-animation: fadein 0.3s;
+  animation: fadein 0.3s;
+}
+
+.c0 input:focus ~ .flag {
+  display: none;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: #474f4f;
+  opacity: 0.8;
+}
+
+.c0 input::-moz-placeholder {
+  color: #474f4f;
+  opacity: 0.8;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: #474f4f;
+  opacity: 0.8;
+}
+
+.c0 input::placeholder {
+  color: #474f4f;
+  opacity: 0.8;
+}
+
+<Input
+  className="c0"
+  defaultValue=""
+  disabled={false}
+  icon=""
+  required={false}
+  type="text"
+/>
+`;
