@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select ui tests adds styles to the Select 1`] = `
+.c0 {
+  position: relative;
+  margin-top: 2.1875rem;
+  border-bottom: 0.125rem solid #474f4f;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  padding: 0;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.c0.ellies-disabled-select {
+  opacity: 0.4;
+}
+
+.c0.ellies-select-focused {
+  border-bottom: 0.125rem solid #021828;
+  color: #021828;
+}
+
+.c0.ellies-invalid,
+.c0.ellies-required {
+  color: #af1a12;
+  border-bottom: 0.125rem solid #af1a12;
+}
+
+.c0 select {
+  cursor: pointer;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 100%;
+  padding: 0 1.125rem 0.25rem;
+  font-size: 1rem;
+  background-color: rgba(0,0,0,0);
+}
+
+.c0 select.placeholder {
+  color: #474f4f;
+  opacity: 0.9;
+}
+
+.c0 select:focus {
+  outline: none;
+  color: #021828;
+}
+
+.c0 .ellies-select-icon {
+  position: absolute;
+  height: 1rem;
+  width: 0.875rem;
+  left: 0;
+  bottom: 0.25rem;
+}
+
+.c0 select.invalid:not(:focus) ~ .flag {
+  display: block;
+  -webkit-animation: fadein 0.3s;
+  animation: fadein 0.3s;
+}
+
+.c0 .select:focus {
+  display: none;
+}
+
+<Select
+  className="c0"
+  disabled={false}
+  icon=""
+  name=""
+  required={false}
+/>
+`;
